@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InventarisdatasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('contents.showdata');
-});
+// Route::get('/', function () {
+//     return view('contents.showdata');
+// });
+
+Route::get('/', [InventarisdatasController::class, 'index']);
+
+Route::resources([
+    'data' => InventarisdatasController::class
+]);
