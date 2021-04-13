@@ -74,19 +74,6 @@
         @endforeach
 
         </tbody>
-        <tfoot class="thead-dark">
-        <tr>
-            <th>No.</th>
-            <th>NIP</th>
-            <th>Nama</th>
-            <th>Golongan</th>
-            <th>Kabupaten</th>
-            <th>Tempat Tugas</th>
-            <th>Kode Label</th>
-            <th>Lemari</th>
-            <th>Aksi</th>
-        </tr>
-        </tfoot>
     </table>
 
 
